@@ -1,3 +1,16 @@
+# Logo Problem
+There are two links overlapping
+
+# Mode Toggle 
+Set mode 
+
+# Hover on navbar triggers move in other parts
+
+  `   &:hover {
+      font-weight: 600;
+      font-size: 1.8rem;
+    }
+  `
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
