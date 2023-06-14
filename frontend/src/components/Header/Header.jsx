@@ -1,46 +1,43 @@
-import React, { useState, useContext } from "react";
-import { Container, Div1, Div2, Div3, Logo } from "./HeaderStyles";
-import { NavLink } from "react-router-dom";
-import { MdLightMode, MdDarkMode } from "react-icons/md";
-
-
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { MdLightMode, MdDarkMode } from 'react-icons/md';
 
 const navItems = [
   {
-    link: "#about",
-    name: "About",
+    link: '#about',
+    name: 'About',
   },
   {
-    link: "#services",
-    name: "Services",
+    link: '#services',
+    name: 'Services',
   },
   {
-    link: "#works",
-    name: "Works",
+    link: '#works',
+    name: 'Works',
   },
   {
-    link: "#blog",
-    name: "Blog",
+    link: '#blog',
+    name: 'Blog',
   },
   {
-    link: "#contact",
-    name: "Contact",
+    link: '#contact',
+    name: 'Contact',
   },
 ];
 
 const Header = () => {
   const [mode, setMode] = useState('dark');
-  const toggle = () => setMode(mode === "light" ? "dark" : "light");
+  const toggle = () => setMode(mode === 'light' ? 'dark' : 'light');
   return (
-    <Container>
-      <Div1>
+    <header>
+      <div>
         <NavLink href="/">
-          <Logo>
+          <div>
             <span>web</span>tech
-          </Logo>
+          </div>
         </NavLink>
-      </Div1>
-      <Div2>
+      </div>
+      <div>
         {navItems.map((item) => {
           return (
             <li key={item.link}>
@@ -48,8 +45,8 @@ const Header = () => {
             </li>
           );
         })}
-      </Div2>
-      <Div3>
+      </div>
+      <div>
         <div className="dropdown">
           <select name="lang" id="lang">
             <option value="en">EN</option>
@@ -59,10 +56,14 @@ const Header = () => {
         </div>
         <button className="btn-project">Start A Project</button>
         <button onClick={toggle} className="btn-mode">
-          {mode === "light" ? <MdDarkMode className="icon"/> : <MdLightMode className="icon"/>}
+          {mode === 'light' ? (
+            <MdDarkMode className="icon" />
+          ) : (
+            <MdLightMode className="icon" />
+          )}
         </button>
-      </Div3>
-    </Container>
+      </div>
+    </header>
   );
 };
 

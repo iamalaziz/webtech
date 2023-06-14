@@ -1,0 +1,18 @@
+@import '../components/Header/header';
+@import './vars';
+
+* {
+  outline: 1px solid rgb(247, 171, 64);
+}
+body {
+  background-color: #181b1f;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
