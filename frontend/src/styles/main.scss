@@ -1,11 +1,18 @@
-@import '../components/Header/header';
+@import './fonts';
 @import './vars';
+@import '../components/Header/header';
+@import '../Layout/layout';
+@import '../components/Footer/footer';
+@import '../components/Hero/hero';
 
 * {
+  margin: 0;
   outline: 1px solid rgb(247, 171, 64);
 }
 body {
   background-color: #181b1f;
+  font-family: 'Gilroy Light';
+  color: #fff;
 }
 
 a {
@@ -15,4 +22,10 @@ a {
 
 li {
   list-style: none;
+}
+.App {
+  width: 95%;
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 1200px;
 }

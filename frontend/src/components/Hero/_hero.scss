@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+  &__text {
+    flex: 40%;
+  }
+  &__images {
+    flex: 60%;
+    position: relative;
+    img {
+      position: absolute;
+    }
+  }
+}
