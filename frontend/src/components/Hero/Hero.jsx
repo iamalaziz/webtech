@@ -8,6 +8,7 @@ const Hero = () => {
     <div className="hero">
       <div className='hero__text'>
         <h1>Today we are limited only by our imagination!</h1>
+        <div className='hero__line'></div>
         <p>Turn your ideas into real results with us! </p>
       </div>
       <div className="hero__images">
