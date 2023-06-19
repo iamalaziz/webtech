@@ -1,4 +1,5 @@
 import Hero from './components/Hero/Hero';
+import ThreeReasons from './components/ThreeReasons/ThreeReasons';
 import { Layout } from './layout/Layout';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Layout>
         <Hero />
+        <ThreeReasons />
       </Layout>
     </div>
   );

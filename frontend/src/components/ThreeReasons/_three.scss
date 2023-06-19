@@ -1,0 +1,38 @@
+.three-features {
+  background-color: #292F35;
+  font-family: 'Poppins';
+  &__container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+  }
+  &__item {
+    max-width: 300px;
+    h2 {
+      font-family: 'Gilroy Light';
+      font-size: 50px;
+      background: linear-gradient(to top right, #00f0ff 20.26%, #3360ff 89%);
+      -webkit-background-clip: text;
+              background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.bold {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 15px 0;
+    }
+    p.light {
+      opacity: 0.8;
+    }
+  }
+  .line {
+    height: 60%;
+    width: 2px;
+    background-color: #fff;
+    opacity: .5;
+  }
+}

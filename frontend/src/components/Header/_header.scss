@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 0;
+  margin: 50px auto;
+  width: 95%;
+  max-width: 1200px;
   &__logo {
     font-size: 28px;
     span {
