@@ -1,5 +1,5 @@
 .three-features {
-  background-color: #292F35;
+  background-color: #292f35;
   font-family: 'Poppins';
   &__container {
     width: 95%;
@@ -17,7 +17,7 @@
       font-size: 50px;
       background: linear-gradient(to top right, #00f0ff 20.26%, #3360ff 89%);
       -webkit-background-clip: text;
-              background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     p.bold {
@@ -33,6 +33,6 @@
     height: 60%;
     width: 2px;
     background-color: #fff;
-    opacity: .5;
+    opacity: 0.5;
   }
 }

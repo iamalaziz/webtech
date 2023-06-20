@@ -58,8 +58,7 @@ const Hero = () => {
           </svg>
         </div>
         <a className="scroll-down" href="#three-features">
-          <div className="scroll-down__inner">
-          </div>
+          <div className="scroll-down__inner"></div>
         </a>
       </div>
     </div>

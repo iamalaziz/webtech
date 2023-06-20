@@ -4,11 +4,10 @@
 @import './fonts';
 @import './vars';
 @import '../components/Header/header';
-@import '../Layout/layout';
 @import '../components/Footer/footer';
 @import '../components/Hero/hero';
 @import '../components/ThreeReasons/three';
-
+@import '../Layout/layout';
 
 * {
   box-sizing: border-box;
