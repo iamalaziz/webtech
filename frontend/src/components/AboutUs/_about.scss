@@ -40,6 +40,7 @@
     flex-direction: column;
     gap: 40px;
     max-width: 400px;
+    position: relative;
     .card {
       background-color: #31373f;
       border-radius: 0.5rem;
@@ -92,6 +93,10 @@
       transition: opacity 0.5s;
       animation: spin 5s linear infinite;
     }
+    &:after {
+      @include circleLight(400px);
+      right: -50%;
+    }   
   }
   .bg-text {
     color: #31373f4d;
@@ -100,8 +105,15 @@
     line-height: 120%;
     position: absolute;
     bottom: -3rem;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
     span {
       font-family: 'Gilroy ExtraBold';
+    }
+    &:before {
+      @include circleLight(200px);
+      left: -100px;
     }
   }
 }

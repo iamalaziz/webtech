@@ -58,7 +58,7 @@
       content: '';
       width: 500px;
       height: 500px;
-      position: fixed;
+      position: absolute;
       border-radius: 50%;
       transform: translate(60%);
       background: #00f0ff;
@@ -87,7 +87,7 @@
       content: '';
       width: 500px;
       height: 500px;
-      position: fixed;
+      position: absolute;
       border-radius: 50%;
       transform: translate(0%, 40%);
       background: #3360ff;

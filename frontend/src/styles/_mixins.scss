@@ -6,3 +6,16 @@
   background: linear-gradient(144.91deg, #00f0ff 20.26%, #3360ff 89%);
   border-radius: 3px;
 }
+
+@mixin circleLight($size: 100px) {
+  content: '';
+  width: $size;
+  height: $size;
+  position: absolute;
+  border-radius: 50%;
+  // background: #00f0ff;
+  background: linear-gradient(90deg, #00f0ff 0%, #3360ff 100%);
+  filter: blur(175px);
+  opacity: 0.5;
+  z-index: -6;
+}
