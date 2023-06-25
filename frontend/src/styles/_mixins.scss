@@ -1,6 +1,8 @@
 @mixin line($height, $length) {
+  content: '';
   width: $length;
   height: $height;
+  display: block;
   background: linear-gradient(144.91deg, #00f0ff 20.26%, #3360ff 89%);
   border-radius: 3px;
 }

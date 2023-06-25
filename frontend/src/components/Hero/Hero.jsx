@@ -7,7 +7,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="hero__top">
         <div className="hero__text">
           <h1>Today we are limited only by our imagination!</h1>
@@ -61,7 +61,7 @@ const Hero = () => {
           <div className="scroll-down__inner"></div>
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 
