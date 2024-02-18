@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <BurgerMenu isOpen = {isOpen} handleToggle={handleToggle} />
         <Hero />
         <ThreeReasons />
         <AboutUs />

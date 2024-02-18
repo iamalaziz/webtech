@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { FiArrowRight } from 'react-icons/fi';
@@ -27,9 +27,7 @@ const navItems = [
   },
 ];
 
-const BurgerMenu = ({isOpen, handleToggle}) => {
-  
-
+const BurgerMenu = ({ isOpen, handleToggle }) => {
   return (
     <div
       className={`burger-menu ${isOpen ? 'open' : ''}`}
